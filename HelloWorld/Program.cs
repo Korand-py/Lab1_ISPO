@@ -26,10 +26,30 @@
 // int age = int.Parse(input);
 // Console.WriteLine(age + 10);
 
-int x = 10;
-int y = 3;
-Console.WriteLine(x + y); 
-Console.WriteLine(x - y); 
-Console.WriteLine(x * y); 
-Console.WriteLine(x / y); 
-Console.WriteLine(x % y); 
+// int x = 10;
+// int y = 3;
+// Console.WriteLine(x + y); 
+// Console.WriteLine(x - y); 
+// Console.WriteLine(x * y); 
+// Console.WriteLine(x / y); 
+// Console.WriteLine(x % y); 
+
+string fn = "Ринат";
+string ln = "Гибадуллин";
+string group = "ИСП-242";
+int bY = 2008;
+double gpa = 4.5;
+bool hasScholarship = false;
+int cY = 2026;
+int age = cY - bY;
+
+Console.WriteLine("Удостоверение");
+Console.WriteLine($"Имя: {fn} {ln}");
+Console.WriteLine($"Группа: {group}");
+Console.WriteLine($"Возраст: {age} лет");
+Console.WriteLine($"Средний бал: {gpa}");
+Console.WriteLine($"Стипендия: {hasScholarship}");
+
+Console.Write("Введите ваш любимый предмет");
+string obj = Console.ReadLine();
+Console.WriteLine($"{fn} любит {obj}");
