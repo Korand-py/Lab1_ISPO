@@ -21,7 +21,15 @@
 // string name = Console.ReadLine();
 // Console.WriteLine($"Привет, {name}!");
 
-Console.Write("Введите ваш возраст");
-string input = Console.ReadLine();
-int age = int.Parse(input);
-Console.WriteLine(age + 10);
+// Console.Write("Введите ваш возраст");
+// string input = Console.ReadLine();
+// int age = int.Parse(input);
+// Console.WriteLine(age + 10);
+
+int x = 10;
+int y = 3;
+Console.WriteLine(x + y); 
+Console.WriteLine(x - y); 
+Console.WriteLine(x * y); 
+Console.WriteLine(x / y); 
+Console.WriteLine(x % y); 
