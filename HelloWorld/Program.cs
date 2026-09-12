@@ -12,7 +12,11 @@
 // var pi = 3.14159;
 // var isActive = true;
 
-string myName = "Иван";
-int myAge = 20;
-string myGroup = "ИСП-242";
-Console.WriteLine($"Меня зовут {myName}, мне {myAge} лет, я учусь в группе {myGroup}");
+// string myName = "Иван";
+// int myAge = 20;
+// string myGroup = "ИСП-242";
+// Console.WriteLine($"Меня зовут {myName}, мне {myAge} лет, я учусь в группе {myGroup}");
+
+Console.Write("Введите имя");
+string name = Console.ReadLine();
+Console.WriteLine($"Привет, {name}!");
