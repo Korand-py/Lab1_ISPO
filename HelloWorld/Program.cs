@@ -80,7 +80,7 @@ double num2 = double.Parse(Console.ReadLine());
 Console.WriteLine($"Сумма: {num1 + num2}");
 Console.WriteLine($"Разность: {num1 - num2}");
 Console.WriteLine($"Произведение: {num1 * num2}");
-
+//
 if (num2 != 0)
 {
     Console.WriteLine($"Частное: {num1 / num2}");
