@@ -89,38 +89,54 @@
 //     Console.WriteLine("Деление на ноль невозможно!");
 // }
 
-using System.Collections.Concurrent;
+// using System.Collections.Concurrent;
 
-Console.WriteLine(int.MaxValue);
-Console.WriteLine(int.MinValue);
-Console.WriteLine(double.MaxValue);
-Console.WriteLine(double.MinValue);
+// Console.WriteLine(int.MaxValue);
+// Console.WriteLine(int.MinValue);
+// Console.WriteLine(double.MaxValue);
+// Console.WriteLine(double.MinValue);
 
-Console.WriteLine("Добро пожаловать в анкету!");
-Console.WriteLine("Введите имя: ");
-String name = Console.ReadLine();
-Console.WriteLine("Введите фамилию: ");
-String surname = Console.ReadLine();
-Console.WriteLine("Введите группу: ");
-String group = Console.ReadLine();
-Console.WriteLine("Введите год рождения: ");
-int birthYear = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите ваш средний бал (4.5): ");
-double gpa = double.Parse(Console.ReadLine());
+// Console.WriteLine("Добро пожаловать в анкету!");
+// Console.WriteLine("Введите имя: ");
+// String name = Console.ReadLine();
+// Console.WriteLine("Введите фамилию: ");
+// String surname = Console.ReadLine();
+// Console.WriteLine("Введите группу: ");
+// String group = Console.ReadLine();
+// Console.WriteLine("Введите год рождения: ");
+// int birthYear = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите ваш средний бал (4.5): ");
+// double gpa = double.Parse(Console.ReadLine());
 
-int currentYear = 2026;
-int age = currentYear - birthYear;
-bool isExcellent = gpa >= 4.5;
-string status;
-if (isExcellent == true) status = "Отличник";
-else status = "Хорошист";
+// int currentYear = 2026;
+// int age = currentYear - birthYear;
+// bool isExcellent = gpa >= 4.5;
+// string status;
+// if (isExcellent == true) status = "Отличник";
+// else status = "Хорошист";
 
-Console.WriteLine("Ваша анкета");
-Console.WriteLine($"Имя: {name} {surname}");
-Console.WriteLine($"Группа: {group}");
-Console.WriteLine($"Возраст: {age} лет");
-Console.WriteLine($"Средний бал: {gpa}");
-Console.WriteLine($"Статус: {status}");
-Console.WriteLine($"Лет до 30: {30 - age}");
-Console.WriteLine("Нажмите Enter для выхода...");
-Console.ReadLine();
+// Console.WriteLine("Ваша анкета");
+// Console.WriteLine($"Имя: {name} {surname}");
+// Console.WriteLine($"Группа: {group}");
+// Console.WriteLine($"Возраст: {age} лет");
+// Console.WriteLine($"Средний бал: {gpa}");
+// Console.WriteLine($"Статус: {status}");
+// Console.WriteLine($"Лет до 30: {30 - age}");
+// Console.WriteLine("Нажмите Enter для выхода...");
+// Console.ReadLine();
+
+string MyGame = "Minecraft";
+int num = 7;
+double pi = Math.PI;
+string i = "И";
+Console.WriteLine($"Любимая игра: {MyGame}");
+Console.WriteLine($"Любимая цифра: {num}");
+Console.WriteLine($"Число пи: {pi}");
+Console.WriteLine($"Любимая игра: {i}");
+
+Console.WriteLine("I");
+Console.WriteLine("need");
+Console.WriteLine("more");
+Console.WriteLine("power!");
+
+Console.WriteLine("Hello There");
